@@ -1,5 +1,5 @@
 name: CI/CD - Comentários API
-run: docker build -t ${{ secrets.DOCKER_USERNAME }}/comentarios-api:latest ./api
+run: docker build -t ${{ secrets.DOCKER_USERNAME }}/desafio-devops ./api
 on:
   push:
     branches: [ "main" ]
