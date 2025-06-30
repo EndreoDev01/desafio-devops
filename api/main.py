@@ -1,3 +1,4 @@
+from prometheus_fastapi_instrumentator import Instrumentator
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
@@ -9,6 +10,8 @@ from database import SessionLocal, engine, Base
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+instrumentator = Instrumentator()
+instrumentator.instrument(app).expose(app)
 
 # Conexão com o banco em cada requisição
 def get_db():
