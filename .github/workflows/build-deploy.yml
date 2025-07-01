@@ -20,3 +20,23 @@ jobs:
 
       - name: Push da imagem para o Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/desafio-devops:latest
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Conectar na VM e fazer deploy
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: 34.10.228.102         
+          username: projetosendreodev  
+          key: ${{ secrets.VM_SSH_KEY }} 
+          script: |
+            cd desafio-devops
+            git pull origin main
+            docker compose pull
+            docker compose up -d
