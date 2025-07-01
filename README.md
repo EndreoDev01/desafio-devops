@@ -1,5 +1,1 @@
-TESTE COMMIT
-1x
-2x
-3x
-4x
+push test
