@@ -19,10 +19,7 @@ jobs:
           username: projetosendreodev
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
-            if [ ! -d "desafio-devops" ]; then
-              git clone https://github.com/EndreoDev01/desafio-devops.git
-            fi
             cd desafio-devops
             git pull origin main
-            docker compose down
+            docker compose pull
             docker compose up -d

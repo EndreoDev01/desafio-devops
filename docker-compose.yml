@@ -14,7 +14,7 @@ services:
       - "5432:5432"
 
   api:
-    build: ./api
+    image: endreocordeiro/desafio-devops:latest
     restart: always
     depends_on:
       - db
