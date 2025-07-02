@@ -4,8 +4,8 @@ global:
 scrape_configs:
   - job_name: "fastapi"
     static_configs:
-      - targets: ["34.10.228.102:8000"]
+      - targets: ["35.208.45.64:8000"]
 
   - job_name: "gce-node-exporter"
     static_configs:
-      - targets: ["34.10.228.102:9100"]
+      - targets: ["35.208.45.64:9100"]
