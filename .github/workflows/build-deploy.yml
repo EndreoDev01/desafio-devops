@@ -32,8 +32,8 @@ jobs:
       - name: Conectar na VM e fazer deploy
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: 34.10.228.102         
-          username: projetosendreodev  
+          host: ${{ secrets.VM_HOST }}         
+          username: ${{ secrets.VM_HOST }}  
           key: ${{ secrets.VM_SSH_KEY }} 
           script: |
             cd desafio-devops
