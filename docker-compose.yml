@@ -25,6 +25,7 @@ services:
       - "8000:8000"
 
   prometheus:
+    restart: always
     image: prom/prometheus:latest
     container_name: prometheus
     volumes:
@@ -35,6 +36,7 @@ services:
       - "9090:9090"
 
   grafana:
+    restart: always
     image: grafana/grafana:latest
     container_name: grafana
     ports:
