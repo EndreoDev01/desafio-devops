@@ -56,7 +56,7 @@ Utilizei Terraform para provisionar:
 - Firewall
 - Script de inicialização
 
-Durante a finalização percebi que não haviado reiniciado a VM desde a criação com o Terraform e a configuração de rede estava somente para criar IP público, posteriormente reservei um IP estático manualmente na VPC e adaptei o `main.tf` para importar o recurso, mantendo o `terraform.tfstate` íntegro.
+Durante a finalização percebi que não haviado reiniciado a VM desde a criação com o Terraform e a configuração de rede estava somente para criar IP público, posteriormente reservei um IP estático manualmente na VPC e adaptei o `main.tf` para importar o recurso, mantendo o `terraform.tfstate` íntegro, além de criar um Bucket no Cloud Storage para armazenar.
 
 ---
 
@@ -78,7 +78,7 @@ Implementei monitoramento utilizando:
 - Node Exporter para métricas da VM
 - Grafana com dois dashboards para visualização
 
-Essa stack foi escolhida por aprendizado, especialmente com Prometheus que ainda não dominava.
+Essa stack foi escolhida por aprendizado, especialmente com Prometheus que ainda não havia utilizado.
 
 ---
 
