@@ -1,0 +1,8 @@
+.terraform/
+
+# Ignorar arquivos de estado 
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorar logs e temporários
+*.log
