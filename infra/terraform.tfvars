@@ -1,0 +1,1 @@
+credentials_file = "/home/endreo/Documents/Labs/desafio-devops/Json/key.json"
