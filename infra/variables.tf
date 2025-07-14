@@ -33,10 +33,7 @@ variable "size" {
   default = 20
 }
 
-variable "credentials_file" {
-  type        = string
-  description = "Caminho do arquivo JSON com credenciais da conta de serviço"
-}
+
 
 variable "static_ip" {
   type    = string

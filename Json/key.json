@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lab-endreo",
+  "private_key_id": "8e3b575cf5d0ccfcdda50435d0f12a1249a0a03f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD2dF0wjS9TeNa2\n2Wr78axQul8mIIYiwCLjHg81VusAEGhzbiTzAB57egu8bcXRmJW8COyjC6YKcmcT\nAYLxl14CT7gkB7B0B8H7kM2nyFPU6t9680ySU3JqlJWsgXU2MvLcYrb5Oo6xbUUR\nt9BT+Dm6RuGY76k6wXzrnR2e4J0/AyEct9YyRkr5KMCLW04f03k78YTfftcdyCmH\nnV1ctEhFPyUu5Zg7sAlRvowENPCG0XUIFJPc/BtPTQABllhwaJy1ousLIbcKuIY+\nL9PWKnGPfF8KtpO7b/mUj3R368s6+yPeUuVcwCvLSaabO9KRzqcQpNd9AbR2Q9kx\nGjeOIyRjAgMBAAECggEACEJoE8YiLZBMKdPpfki1d1MiTdsjLlZKv6/J31tqrsAz\nWphODAgXUsNep1GfzTa+4I6wAjAparTgzXCXMdTaerCvQXiHKlb5jPO9C1VvByCu\nnVE6t2CtN0iEJ5mDExjsA1oaOwoCWYyJlwlrpZTDt9bDnWYoFrxV8mjROE+GFY7K\nyWd+xsN4mdrPP17up/wRSA+9+mGRQF+A/ShRiWVkaHRZQpO0MDKXBbekK9SfIZTs\n1iig39l6d6l5gUbr0yxfkejWlctR0ziS2lkcKEwo34TXZTfKnD7Txf3fM5R5Q3x7\nsO0xl59xVEEKl0wZxx/Qn16pnQacbbtHWnnrSB+0AQKBgQD9xN6V0aWJvH62sv+Q\n3Cw5YAyoy4pD5OdODcts2GHUD+kkLbp9LyV/R5Ckk5hHim1pZllQWYBiUCoo56Y+\no43Onh4yMsaklvbJwiCWLy8d9+dxjR03Lbgi/ZUtrf9UOQHrRABmy6FYQ/oSMEjC\nAIjEj2knb9SoTqyoToPv2hQGAQKBgQD4nwhb0OwML0BFCRjy0BlUH//5ZbcnLhEl\n1yWp6oNGkwm7CiXFd9bR9YKTskIZXOTo40KzPKcVhvi+Ta3EeAQsll0S1PKkR+Jx\nCrsQ4qlJ6pqwGLdCXNRQpaCo6qzrkf2rIajNp0MoupeNikz2AUFAgbR7hSpkMZIr\nR7BM+3jSYwKBgQDepQpQ0dX16V4XNybIVpOqZx3UPnf5p2xU6/9taM8z+h2ns0Mq\nL+IrMIO0ERaKteXWkoiL2WqtVv4WU19lF6QEAnAlxKzJnPW7AEoM2irxlR4HXzKh\nxcgHUwq+QCmDIF0Rp+DeT4woX8OYj6pWI5fbNKOiiRg/7n7HT9Or7V6iAQKBgQDi\n23otDX3VwGfMlniFVw1Fjc1sLDvrLEXJWX+sg6g1hYWjfabpgGgsPPFhA478xZ66\nQmRiWD29juL6ArdERp7IcIuM23JsJIuiyj/XMHt4TvHHLUZK75lr3TWz7C7M5PGq\nbZQx0yWczGXtaPzAnHSF/9RHwULlGbZed5OPKwccMQKBgFK8UupPa3DeEb1MWemO\nXPgVvFKtia9U2jaoyjji//JsAJ8y3TkGhd0lRHMdgt4yaaCkv+MhHlqKmyu1CkVX\nB90d2otjtX6E7hf8rB+bV3z+pmbjZ8b+am6hxrSGMWQJOmYT9q2M8I7tPQeHj+AP\nRuus2qkCby1LjUGwtkIZMZ1S\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-vm-admin@lab-endreo.iam.gserviceaccount.com",
+  "client_id": "118092765852954958774",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-vm-admin%40lab-endreo.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
